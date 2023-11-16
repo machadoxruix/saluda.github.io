@@ -1,0 +1,245 @@
+div{
+}
+.padre{
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	width:100%;
+}
+.logo{
+	height:auto;
+	width:30%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.logo2{
+	height:auto;
+	width:14%;
+}
+.hijo1{
+	display:flex;
+	width:100%;
+	height:auto;
+}
+.hijo1 img{
+	width:100%;
+}
+.hijo2{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:space-evenly;
+	width:100%;
+	height:auto;
+}
+.nieto{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:no-wrap;
+	height:auto;
+	width:22%;
+	border-color:#c7c4c3;
+	border-style:solid;
+	border-radius:10px;
+	margin:1px;
+	margin-top:30px;
+	margin-bottom:45px;
+	text-align:center;
+	padding:1.5%;
+}
+.nieto h2{
+	font-size:22px;
+	margin-bottom:-4px;
+	margin-top:-4px;
+}
+.nieto p{
+	color:#838382;
+	font-size:17px;
+} 
+.nieto img{
+	display:block;
+	margin-top:3%;
+}
+/*-------------------------------------------------*/
+.nieto2{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:no-wrap;
+	height:auto;
+	width:80%;
+	border-color:#c7c4c3;
+	border-style:solid;
+	border-radius:10px;
+	margin:1px;
+	margin-top:30px;
+	margin-bottom:45px;
+	text-align:center;
+	padding:1.5%;
+}
+.nieto2 h2{
+	font-size:22px;
+	margin-bottom:-4px;
+	margin-top:-4px;
+}
+.nieto2 p{
+	color:#838382;
+	font-size:17px;
+} 
+.nieto2 img{
+	display:block;
+	margin-top:3%;
+}
+.nieto2 a:link{
+	color:#87A9F6;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+	border-style:solid;
+	border-color:#87A9F6;
+}
+.nieto2 a:hover{
+	color:red;
+	border-color:red;
+}
+.nieto2 a:visited{
+	color:#87A9F6;
+	border-color:#87A9F6;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+}
+
+/*-----------------------------------------------*/
+.footer{
+	height:18vh;
+	margin-left:55px;
+	padding-top:2%;
+	height:auto;
+}
+.footer img{
+	margin-left:10px;
+}
+.footer2{
+	height:18vh;
+	margin-left:20px;
+	font-size:15px;
+	height:auto;
+}
+.footer2 p{
+	margin-bottom:-10px;
+}
+.footer2 img{
+	margin-top:10px;
+	margin-right:2px;
+}
+header{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	height:auto;
+	width:100%;
+	background:linear-gradient(to right,white 40%, red 84% );
+	align-items: center;
+	border-bottom-style:solid;
+	border-color:grey;
+}
+header p{
+	width:10%;
+}
+.nav{
+	display:flex;
+	flex-direction:column;
+	height:33vh;
+	width:auto;
+    align-items:flex-end;
+	line-height:0px;
+}
+.nav p{
+	margin-right:14%;
+	color:#fff;
+	font-size:14px;
+	height:auto;
+}
+.nav h1{
+	margin-right:2%;
+	font-size:15px;
+}
+.nieto a:link{
+	color:#87A9F6;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+	border-style:solid;
+	border-color:#87A9F6;
+}
+.nieto a:hover{
+	color:red;
+	border-color:red;
+}
+.nieto a:visited{
+	color:#87A9F6;
+	border-color:#87A9F6;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	width:8%;
+	height:80%;
+	transition:font-size 1s, color 1s;
+	font-family: verdana,sanss-sheriff;
+}
+main{
+	display:flex;
+	flex-direction:column;
+	background-color:#ffffff ;
+	height:auto;
+	width:100%;
+}
+footer{
+	display:flex;
+	height:auto;
+	width:98%;
+	background-color:#666666;
+	padding:1%;
+	background:linear-gradient(to right,white 40%, red 84% );
+	border-top-style:solid;
+	border-color:grey;
+	justify-content:space-between;
+}
+footer p{
+	font-family: verdana,sanss-sheriff;
+	flex-direction:column;
+}
+body{
+	margin:0;
+}
+h1{
+	color:#131677;
+	text-align:center;
+	font-size:25px;
+	font-family: verdana,sanss-sheriff;
+}
+h2{
+	font-size:20px;
+	color:#14164F;
+	text-align:center;
+	font-family: verdana,sanss-sheriff;
+}
+p{
+	line-height:35px;
+	text-align:left;
+	color:#A09F9E;
+	font-family: verdana,sanss-sheriff;
+}
